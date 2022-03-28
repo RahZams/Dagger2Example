@@ -3,6 +3,8 @@ package com.dagger2example;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
+
 import com.dagger2example.Car.Car;
 import com.dagger2example.Dagger.ActivityComponent;
 import com.dagger2example.Dagger.DieselEngineModule;
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Inject
 //    Car car1,car2;
     Car car;
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         activityComponent.getCar().drive();
         activityComponent.getCar().drive();
+
+        Log.d(TAG, "onCreate: ");
+        
+        
 
 
 
