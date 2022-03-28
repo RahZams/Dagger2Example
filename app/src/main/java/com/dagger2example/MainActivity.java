@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
         activityComponent.getCar().drive();
         activityComponent.getCar().drive();
 
+        activityComponent.getCar().drive();
+
 
 
     }
