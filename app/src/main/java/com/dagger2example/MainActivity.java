@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "onCreate: ");
         Log.d(TAG, "onCreate: $activityComponent");
-        
+        Log.d(TAG, "onCreate: commit 1");
         
 
 
