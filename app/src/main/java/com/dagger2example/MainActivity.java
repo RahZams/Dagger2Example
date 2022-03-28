@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         activityComponent.getCar().drive();
 
         Log.d(TAG, "onCreate: ");
+        Log.d(TAG, "onCreate: $activityComponent");
         
         
 
